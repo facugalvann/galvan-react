@@ -1,0 +1,26 @@
+.navbar {
+    color: white;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 20px;
+}
+
+.cartwidget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-cart{
+    font-size: 30px;
+}
