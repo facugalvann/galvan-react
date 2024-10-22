@@ -1,19 +1,27 @@
 import "./navbar.css"
-
+import { Link } from "react-router-dom"
 import IoIosCart from "./CartWidget"
 const NavBar = () => {
 
 
     return (
         <nav className="navbar">
-            <div className="brand">
+            <Link to="/" className="brand">
                 <h2>Sneakers</h2>
-            </div>
-            <ul>
-                <li>Rebajas</li>
-                <li>Zapatillas</li>
-                <li>Ropa</li>
-                <li>Contacto</li>
+            </Link>
+            <ul className="categories">
+                <li className="category">
+                    <Link to="/category/accesorios">Accesorios</Link>
+                </li>
+                <li className="category">
+                <Link to="/category/zapatillas">Zapatillas</Link> 
+                    </li>
+                <li className="category">
+                <Link to="/category/ropa">Ropa</Link> 
+                    </li>
+                <li className="category">
+                <Link to="/category/contacto">Contacto</Link>
+                    </li>
             </ul>
             <IoIosCart />
 
@@ -21,3 +29,4 @@ const NavBar = () => {
     )
 }
 export default NavBar
+

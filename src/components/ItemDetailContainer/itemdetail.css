@@ -1,0 +1,5 @@
+.item-detail{
+    display: flex;
+   img{height: 550px;}
+   margin: 40px;
+}
