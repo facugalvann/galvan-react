@@ -19,11 +19,11 @@ const NavBar = () => {
                 <li className="category">
                 <Link to="/category/ropa">Ropa</Link> 
                     </li>
-                <li className="category">
+                {/* <li className="category">
                 <Link to="/category/contacto">Contacto</Link>
-                    </li>
+                    </li>  */}
             </ul>
-            <IoIosCart />
+            <IoIosCart className="io-cart" />
 
         </nav>
     )

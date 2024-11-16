@@ -1,0 +1,54 @@
+.div-cart h2 {
+    text-align: center;
+}
+
+.product-cart {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+margin-top: 10px;
+}
+
+.delete-cart {
+    display: flex;
+    border-radius: 8px;
+    margin: 10px;
+    width: 9rem;
+    justify-content: center;
+}
+
+.delete-cart:hover {
+    background-color: white;
+    color: #333;
+}
+
+.delete-product {
+    border-radius: 8px;
+    
+}
+
+.delete-product:hover {
+    background-color: white;
+    color: #333;
+}
+
+.precio-total {
+    display: flex;
+    justify-content: space-around;
+}
+.cart-empty{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cart-empty a{
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    width: 9rem;
+   text-align: center;
+}
+.cart-empty a:hover{
+    background-color: white;
+    color: #333;
+}

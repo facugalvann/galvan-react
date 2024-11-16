@@ -1,8 +1,10 @@
-# React + Vite
+# Sneakers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://miro.medium.com/v2/resize:fit:522/0*yIWUZxmFFohhNeOG.png" width="200">
+# Descripcion
+   Es un eccomerce que esta conectado a una base de datos que desde ahi se traen los productos, tambien se pueden subir ordenes. Los productos que coloque en el eccomerce son ropa,zapatillas,y algunos accesorios.
 
-Currently, two official plugins are available:
+## Dependencias
+    `firebase` `react` `react-router-dom` `react-dom` `react-icons` `react-tostify` `sweetalert2`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 

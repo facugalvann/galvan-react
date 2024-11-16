@@ -1,5 +1,77 @@
-.item-detail{
+.item-detail {
     display: flex;
-   img{height: 550px;}
-   margin: 40px;
+
+    img {
+        height: 400px;
+    }
+
+    margin: 40px;
+}
+
+.button-count {
+
+    border-radius: 8px;
+    display: flex;
+}
+
+.detail {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-count {
+    display: flex;
+    align-items: baseline;
+}
+
+.button-rest {
+    justify-content: center;
+    border-radius: 8px;
+    display: flex;
+    width: 20px;
+    text-align: center;
+}
+
+.button-sum {
+    justify-content: center;
+    border-radius: 8px;
+    display: flex;
+    width: 20px;
+}
+
+.item-count button:hover {
+    background-color: white;
+    color: #333;
+}
+
+.count {
+    margin: 5px;
+}
+
+.detail a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.detail a:hover {
+    background-color: white;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border-radius: 8px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: #333;
 }

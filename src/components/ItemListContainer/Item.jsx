@@ -6,7 +6,7 @@ const Item = ({ product }) => {
             <img src={product.image} alt="" />
             <h2>{product.name}</h2>
             <p>Precio: ${product.price}</p>
-            <Link to={"detail/" + product.id}>ver mas</Link>
+            <Link to={"detail/" + product.id}>Ver mas</Link>
         </div>
     )
 }
